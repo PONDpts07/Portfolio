@@ -7,8 +7,8 @@ Project : Secure Hierarchical Network Design with FortiGate & Cisco (Lab on Prox
 
 ---
 
-# 02 EVE-NG Fortigate_AD_RADIUS
-Project : Enterprise Network Security with FortiGate, Active Directory, and FreeRADIUS
+# 02 EVE-NG Fortinet_AD_RADIUS
+Project : Enterprise Network Security with Fortinet, Active Directory, and FreeRADIUS
 - Built a virtualized enterprise lab using Proxmox VE and EVE-NG.
 - Built an enterprise security lab integrating FortiGate firewall, Microsoft Active Directory, and FreeRADIUS.
 - Configured User Authentication (LDAP + RADIUS) for secure network
@@ -17,9 +17,9 @@ Project : Enterprise Network Security with FortiGate, Active Directory, and Free
 - Tested user access scenarios (valid/invalid logins, accounting logs, group-based policies).
 ---
 
-# 03 EVE-NG MultiVendor_FortinetVPN_Cisco_Huawei_Aruba
-Project : Hybrid Multi-Vendor Hub-and-Spoke VPN Deployment
+# 03 EVE-NG MultiVendor_FortinetVPN_Cisco_Huawei
+Project : Hybrid Multi-Vendor Site-to-Site VPN Deployment
 - Built a virtualized enterprise lab using Proxmox VE and EVE-NG.
-- Designed and deployed a secure VPN topology with Fortinet firewall as the HUB at HQ, integrating with Cisco Hierarchical Network Design
-- Configured Branch1 (Fortinet + Huawei) and Branch2 (Fortinet + Aruba) as Spokes for site-to-site secure connectivity.
+- Designed and deployed a secure VPN topology with Fortinet firewall as the Site-to-Site IPsec VPN with Cisco and Huawei Hierarchical Network Design
+- Configured HQ (Fortinet with Cisco) and Branch1 (Fortinet + Huawei) for Site-to-Site secure connectivity.
 ---
