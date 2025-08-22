@@ -18,6 +18,8 @@ Project : Enterprise Network Security with FortiGate, Active Directory, and Free
 ---
 
 # 03 EVE-NG MultiVendor_FortinetVPN_Cisco_Huawei_Aruba
-- Hybrid Multi-Vendor FortinetVPN With HQ-Cisco NetworkDevice Bash1 Huawei Bash2 Aruba Deployment Site-to-Site and Hub-and-Spoke
-
+Project : Hybrid Multi-Vendor Hub-and-Spoke VPN Deployment
+- Designed and deployed a secure VPN topology with Fortinet firewall as the HUB at HQ, integrating with Cisco Core/Distribution network.
+- Configured Branch1 (Fortinet + Huawei) and Branch2 (Fortinet + Aruba) as Spokes for site-to-site secure connectivity.
+  
 ---
