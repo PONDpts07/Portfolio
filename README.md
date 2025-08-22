@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio of Project , Portfolio , Certifications &amp; Training
+Portfolio of Project , Certifications &amp; Training
