@@ -7,7 +7,7 @@ Have Certifications at My Training  about Networking form Cisco Networking Acade
 ---
 
 ### ╰┈ 📂 Projects
-Folder Projects are my project about Network Engineer Project  Design Network. Configuration Network Device , Cisco , Fortinet , Huawei and on Folder Have Three Folder Projects and has Documentation about Each Projects
+Folder Projects are my project about Network Engineer Project  Design Network. Configuration Network Device , Cisco , Fortinet , Huawei and on Folder has Three Folder Projects and has Documentation about Each Projects.
 
 #### 1 Folder have file on folder
 - Network Diagrams.
