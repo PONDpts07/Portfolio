@@ -1,8 +1,9 @@
 # 📂 Portfolio
+-
 Portfolio have Two Folder on Repository
 ---
 ### 📜 Certifications & Training
-- Have Certifications at my Trining  about Network form Cisco Networking Academy and Udemy
+Have Certifications at my Trining  about Network form Cisco Networking Academy and Udemy
 
 ---
 
