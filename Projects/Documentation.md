@@ -1,8 +1,8 @@
-# 01 EVE-NG Hierarchical Network Design_Fortigate_Cisco_DHCP
-Project : Secure Hierarchical Network Design with FortiGate & Cisco (Lab on Proxmox + EVE-NG)
+# 01 EVE-NG Hierarchical Network Design_Fortinet_Cisco_DHCP
+Project : Secure Hierarchical Network Design with Fortinet & Cisco (Lab on Proxmox + EVE-NG)
 - Built a virtualized enterprise lab using Proxmox VE and EVE-NG.
 - Designed Hierarchical Network (Core–Distribution–Access) integrating Cisco Switches Layer3 and Layer2 with FortiGate NGFW.
-- Configured OSPF routing , Default Static Route, VLANs, Firewall policies , Zone-Based Firewall, FHRP for high availability , RSTP with Root Guard for loop prevention, DHCP Spoofing 
+- Configured OSPF routing , Default Static Route, VLANs, Firewall policies , Zone-Based Firewall, FHRP for high availability , RSTP with Root Guard for loop prevention, DHCP Spoofing and DHCP Relay.
 - Tested multi-vendor integration and documented enterprise-grade network security design.
 
 ---
