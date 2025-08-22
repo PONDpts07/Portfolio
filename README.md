@@ -2,7 +2,7 @@
 #### Portfolio have Two Folder on Repository.
 ---
 ### 🗁 Certifications & Training
-Have Certifications at My Trining  about Networking form Cisco Networking Academy , KLIX KMITL and Udemy.
+Have Certifications at My Training  about Networking form Cisco Networking Academy , KLIX KMITL and Udemy.
 
 ---
 
