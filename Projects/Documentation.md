@@ -9,7 +9,7 @@
 ---
 
 #03 EVE-NG MultiVendor_FortinetVPN_Cisco_Huawei_Aruba
-- (Hybrid Multi-Vendor FortinetVPN With HQ-Cisco NetworkDevice Deployment: Site-to-Site and Hub-and-Spoke)
+- Hybrid Multi-Vendor FortinetVPN With HQ-Cisco NetworkDevice Bash1 Huawei Bash2 Aruba Deployment : Site-to-Site and Hub-and-Spoke
 
 ---
 
