@@ -1,12 +1,12 @@
 # Portfolio
 ### Portfolio have Two Folder on Repository
-
-- Certifications & Training
+---
+### Certifications & Training
 Have Certifications at my Trining  about Network form Cisco Networking Academy and Udemy
 
 ---
 
-- Projects
+### Projects
 Have Three Folder on The Project and has Documentation about Projects
 On One Folder Project have
 - Network Diagrams
