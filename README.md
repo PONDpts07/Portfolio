@@ -11,8 +11,11 @@ Folder Projects are my project about Network Engineer Project  Design Network. C
 
 #### 1 Folder have file on folder
 - Network Diagrams.
+- Lab Topology Screenshot (from EVE-NG / Proxmox)
+- Summary Config (Key parts of Device Configuration)
+- Screenshots such as VPN tunnel status, FortiGate logs, RADIUS accounting logs , Routing Table, Authentication Logs, Log evidence (Authentication success/fail ใน FortiGate/AD), Ping/Traceroute results
+- Test Case Table
 - Backup Configuration Network Device of Each Node on that Project.
-- Pigture Labtory.
 - Documentation about that Project.
 
 ---
