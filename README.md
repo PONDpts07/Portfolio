@@ -1,12 +1,12 @@
 # 📂 Portfolio
 #### Portfolio have Two Main Folder on Repository.
 ---
-### ╰┈ 📂 Certifications & Training
+###  📂 Certifications & Training
 Have Certifications at My Training  about Networking form Cisco Networking Academy , KLIX KMITL and Udemy.
 
 ---
 
-### ╰┈ 📂 Projects
+###  📂 Projects
 Folder Projects are my project about Network Engineer Project  Design Network. Configuration Network Device , Cisco , Fortinet , Huawei and on Folder has Three Folder Projects and has Documentation about Each Projects.
 
 #### 1 Folder have file on folder
