@@ -1,21 +1,39 @@
 # 📂 Portfolio
-#### Portfolio have Two Main Folder on Repository.
----
-###  📂 Certifications & Training
-Have Certifications at My Training  about Networking form Cisco Networking Academy , KLIX KMITL and Udemy.
+
+This repository showcases my **Network Engineering Portfolio**, including both certifications and hands-on projects.  
+It is organized into two main folders:
 
 ---
 
-###  📂 Projects
-Folder Projects are my project about Network Engineer Project  Design Network. Configuration Network Device , Cisco , Fortinet , Huawei and on Folder has Three Folder Projects and has Documentation about Each Projects.
-
-#### 1 Folder have file on folder
-- Network Diagrams.
-- Lab Topology Screenshot (from EVE-NG / Proxmox)
-- Summary Config (Key parts of Device Configuration)
-- Screenshots such as VPN tunnel status, FortiGate logs, RADIUS accounting logs , Routing Table, Authentication Logs, Log evidence (Authentication success/fail ใน FortiGate/AD), Ping/Traceroute results
-- Test Case Table
-- Backup Configuration Network Device of Each Node on that Project.
-- Documentation about that Project.
+###  🔹 `Certifications & Training /`
+Contains certificates from training and courses I have completed, focused on **networking and system administration**.  
+include certifications from:  
+- Cisco Networking Academy  
+- KLIX KMITL  
+- Udemy  
 
 ---
+
+### 🔹 `Projects/`
+Contains my **Network engineering lab projects** built using **Proxmox VE** and **EVE-NG**.  
+These projects cover **Network design, Device configuration, Security, and VPN Deployments** using vendors such as Cisco, Active Directory Freeradius and Graylog.
+
+Each project folder includes:
+- **Network Diagrams** – High-level design and topology overview  
+- **Lab Topology Screenshots** – From EVE-NG and Proxmox environments  
+- **Configuration Files** – Key device configurations (Cisco, Linux services, etc.)  
+- **Screenshots & Logs** – Evidence of functionality (VPN tunnels, routing tables, authentication logs, Graylog logs, ping/traceroute, etc.)  
+- **Test Plans & Results** – Test case documentation with outcomes  
+- **Backups** – VM and device configuration backups for recovery  
+- **Documentation** – Summary and explanation of the project  
+
+📌 Currently, the `Projects/` folder contains three projects:  
+1. **Hierarchical Network Design with Cisco vIOS**  
+2. **Enterprise Network Security (Cisco vIOS + AD + FreeRADIUS + Graylog)**  
+3. **IPsec Site-to-Site VPN Deployment with Cisco vIOS**  
+
+---
+
+## ✨ Notes
+- Large backup files (e.g., Proxmox `.vma.zst`) are stored externally (e.g., Google Drive) with download links provided.  
+- This repository is intended as a **portfolio showcase** for my skills and hands-on networking experience.  
