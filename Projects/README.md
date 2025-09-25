@@ -27,10 +27,10 @@ focusing on enterprise network design, security, and VPN deployment.
 
 ---
 
-### 🔹 Project 03 – IPsec Site-to-Site VPN Deployment with Cisco vIOS
+### 🔹 Project 03 – IPsec Site-to-Site VPN Deployment with Fortinet
 **Lab Environment:** Proxmox VE + EVE-NG  
 - Designed a **secure VPN topology** connecting **Branch ↔ HQ between Data Center**  
-- Configured **Cisco vIOS routers** for IPsec Site-to-Site VPN tunnels  
+- Configured **Fortinet** for IPsec Site-to-Site VPN tunnels  
 - Verified encrypted communication and remote site connectivity  
 
 ---

@@ -23,14 +23,14 @@ Each project folder includes:
 - **Lab Topology Screenshots** – From EVE-NG and Proxmox environments  
 - **Configuration Files** – Key device configurations (Cisco, Linux services, etc.)  
 - **Screenshots & Logs** – Evidence of functionality (VPN tunnels, routing tables, authentication logs, Graylog logs, ping/traceroute, etc.)  
-- **Test Plans & Results** – Test case documentation with outcomes  
+- **Test Results** – Test case documentation with outcomes  
 - **Backups** – VM and device configuration backups for recovery  
 - **Documentation** – Summary and explanation of the project  
 
 📌 Currently, the `Projects/` folder contains three projects:  
 1. **Hierarchical Network Design with Cisco vIOS**  
 2. **Enterprise Network Security (Cisco vIOS + AD + FreeRADIUS + Graylog)**  
-3. **IPsec Site-to-Site VPN Deployment with Cisco vIOS**  
+3. **IPsec Site-to-Site VPN Deployment with Fortinet**  
 
 ---
 

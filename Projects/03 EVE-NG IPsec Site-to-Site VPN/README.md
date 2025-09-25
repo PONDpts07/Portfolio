@@ -1,6 +1,6 @@
-# Project03 – IPsec  Site-to-Site VPN Deployment with Router CISCO vIOS
+# Project03 – IPsec  Site-to-Site VPN Deployment with Fortinet
 
-This project stores a **Network VPN Project : IPsec  Site-to-Site VPN Deployment with Router CISCO vIOS** built with **Proxmox + EVE-NG**.  
+This project stores a **Network VPN Project : IPsec  Site-to-Site VPN Deployment with Fortinet** built with **Proxmox + EVE-NG**.  
 It includes files for topology, backups , configuration, documentation
 
 The project is organized into 4 main folders
@@ -12,11 +12,11 @@ The project is organized into 4 main folders
 ### 🔹 `topology/`
 - Stores **EVE-NG lab topology files**  
 - Includes:
-  - `lab1.unl` (EVE-NG lab file in XML format)  
+  -  Project 03 - IPsec Site-to-Site VPN Deployment.zip 
 
-- Each `.unl` file defines:
-  - Nodes (routers, switches, servers, etc.)  
-  - Images used (Cisco IOSv, Linux, vPC etc.)  
+- Each `.unl` file on `.zip` defines:
+  - Nodes (Firewall, switches, vPC , vServers)  
+  - Images used (Cisco IOSv, Fortinet7.0, vPC , vServer)  
   - Resource settings (CPU, RAM, interfaces)  
   - Network connections between devices  
 
@@ -27,22 +27,28 @@ The project is organized into 4 main folders
 ### 🔹 `backups/`
 - Contains **system-level backup files** used in this lab  
 - Includes:
-  - Proxmox VM backup (`.conf`, `.vma.zst`)  
-  - Routers/Switch backup (`.conf`, `.backup`, `.rsc`)  
-
-- Each Folders in Google Drive:
-  - r1.conf
+  - `Firewall/` 
+    - `FGT-HQ_7-0_0066_202509241120.conf`
+    - `FGT-Datacenter_7-0_0066_202509241120.conf `
 
 - Used for restoring actual systems (VMs or devices)
-- Large backup files (e.g., Proxmox `.vma.zst`) be stored externally (Google Drive) with a link provided in File backups.md
 
 ---
 
 ### 🔹 `configs/`
 - Contains **text-based configuration files** of devices in this lab  
 - Includes:
-  - R1.cfg (Cisco Router configuration)  
-  - SW1.cfg (Cisco Switch configuration)  
+  - `Router/` (Cisco Router configuration)
+    -  `vISP.cfg` 
+
+  - `Switch/` (Cisco Switch configuration) 
+    - `Access_DCSW.cfg`
+    - `Access_HQSW01.cfg`
+    - `Distribution_DCSW01.cfg`
+    - `Distribution_DCSW02.cfg`
+    - `Distribution_DCSW01.cfg`
+    - `Distribution_DCSW02.cfg`      
+
 - Easy to read/edit and allows tracking changes with Git
 
 
@@ -51,21 +57,17 @@ The project is organized into 4 main folders
 ### 🔹 `docs/`
 - Contains **documentation and test evidence** for this lab  
 - Includes:
-  - `design_diagram.png` → Diagram or Network Topology  
-  - `test_plan.md` → Test cases / scenarios  
+  - `Network Diagram  Site-to-Site VPN Deployment with Fortinet.png` → Diagram or Network Topology  
   - `test_result.md` → Test results with screenshots/logs  
+
 - Used for reference and to showcase as a portfolio
 
 ---
 
 ## 🚀 How to Use
-1. Import the topology file (`.unl`) into EVE-NG  
-2. Load configurations from the `configs/` folder into the devices  
-3. To restore actual VMs  → use files from `backups/`  
-4. Check `docs/test_plan.md` for the testing procedure  
-5. Review `docs/test_result.md` for actual test results  
+1. Import the topology file (`.zip`) into EVE-NG Load from `docs/`
+2. Load Backup Configuration Fortinet for Restore from the `backups/Firewall/` 
+3. Load configurations from the `configs/` folder into the devices vISP , SwitchsHQ and SwitchsDC
+4. Review `docs/test_result.md` for actual test results  
 
 ---
-
-## ✨ Notes
-- This repository is intended as a **Reference/Portfolio**  

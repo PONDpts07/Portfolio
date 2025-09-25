@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lab name="Project 02 - Enterprise Network Security with CISCO vIOS  Active Directory FreeRADIUS and Graylog" version="1" scripttimeout="300" lock="0">
+  <topology>
+    <nodes>
+      <node id="2" name="AccessSW" type="qemu" template="viosl2" image="viosl2-vios_l2-adventerprisek9-m.ssa.high_iron_20200929" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="8" uuid="d4af5b16-3848-4df0-9081-af265a865845" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.4.0" qemu_arch="x86_64" delay="0" icon="Switch-3D-L2-S.svg" config="0" left="561" top="399">
+        <interface id="0" name="Gi0/0" type="ethernet" network_id="7"/>
+        <interface id="1" name="Gi0/1" type="ethernet" network_id="2"/>
+        <interface id="2" name="Gi0/2" type="ethernet" network_id="3"/>
+        <interface id="3" name="Gi0/3" type="ethernet" network_id="6"/>
+      </node>
+      <node id="4" name="Switch" type="qemu" template="viosl2" image="viosl2-vios_l2-adventerprisek9-m.ssa.high_iron_20200929" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="8" uuid="24c6b132-b6c5-455e-be20-0300fb410546" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.4.0" qemu_arch="x86_64" delay="0" icon="Switch-3D-L2-S.svg" config="0" left="288" top="399">
+        <interface id="0" name="Gi0/0" type="ethernet" network_id="1"/>
+      </node>
+      <node id="1" name="Fortinet" type="qemu" template="fortinet" image="fortinet-FGTv.6" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="4" uuid="9c2e62fa-e409-439f-801f-85d1f87af24d" qemu_options="-machine type=pc-1.0,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -display none -vga std -rtc base=utc" qemu_version="2.4.0" qemu_arch="x86_64" qemu_nic="virtio-net-pci" delay="0" icon="Firewall.png" config="0" left="429" top="234">
+        <interface id="0" name="port1" type="ethernet" network_id="5"/>
+        <interface id="1" name="port2" type="ethernet" network_id="4"/>
+        <interface id="2" name="port3" type="ethernet" network_id="1"/>
+        <interface id="3" name="port4" type="ethernet" network_id="6"/>
+      </node>
+    </nodes>
+    <networks>
+      <network id="2" type="pnet0" name="Freeradius" left="477" top="534" visibility="1" icon="Server_file.png"/>
+      <network id="3" type="pnet0" name="Active Directory" left="555" top="534" visibility="1" icon="Server_file.png"/>
+      <network id="4" type="pnet0" name="ISP" left="426" top="78" visibility="1" icon="Globe-2D-Grey.svg"/>
+      <network id="5" type="pnet0" name="MGMT" left="288" top="225" visibility="1" icon="Desktop2.png"/>
+      <network id="7" type="pnet0" name="Syslog" left="684" top="534" visibility="1" icon="Server_file.png"/>
+      <network id="1" type="bridge" name="Net-Fortinetiface_2" left="489" top="274" visibility="0" icon="lan.png"/>
+      <network id="6" type="bridge" name="Net-Fortinetiface_3" left="489" top="274" visibility="0" icon="lan.png"/>
+    </networks>
+  </topology>
+  <objects>
+    <textobjects>
+      <textobject id="1" name="txt 1" type="text">
+        <data>PGRpdiBpZD0iY3VzdG9tVGV4dDEiIGNsYXNzPSJjdXN0b21TaGFwZSBjdXN0b21UZXh0IGNvbnRleHQtbWVudSB1aS1yZXNpemFibGUganRrLWRyYWdnYWJsZSBkcmFnc3RvcHBlZCIgZGF0YS1wYXRoPSIxIiBzdHlsZT0iZGlzcGxheTogaW5saW5lOyBwb3NpdGlvbjogYWJzb2x1dGU7IGxlZnQ6IDUxNnB4OyB0b3A6IDMzNnB4OyBjdXJzb3I6IG1vdmU7IHotaW5kZXg6IDEwMDE7Ij48cCBhbGlnbj0iY2VudGVyIiBzdHlsZT0idmVydGljYWwtYWxpZ246dG9wO2NvbG9yOiMwMDAwMDA7YmFja2dyb3VuZC1jb2xvcjojZmZmZmZmO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtd2VpZ2h0OiBub3JtYWw7Ij4xOTIuMTY4LjE5OS4wLzI0ICAgICAgICA8L3A+PGRpdiBjbGFzcz0idWktcmVzaXphYmxlLWhhbmRsZSB1aS1yZXNpemFibGUtZSIgc3R5bGU9InotaW5kZXg6IDkwOyI+PC9kaXY+PGRpdiBjbGFzcz0idWktcmVzaXphYmxlLWhhbmRsZSB1aS1yZXNpemFibGUtcyIgc3R5bGU9InotaW5kZXg6IDkwOyI+PC9kaXY+PGRpdiBjbGFzcz0idWktcmVzaXphYmxlLWhhbmRsZSB1aS1yZXNpemFibGUtc2UgdWktaWNvbiB1aS1pY29uLWdyaXBzbWFsbC1kaWFnb25hbC1zZSIgc3R5bGU9InotaW5kZXg6IDkwOyI+PC9kaXY+PC9kaXY+</data>
+      </textobject>
+    </textobjects>
+  </objects>
+</lab>
