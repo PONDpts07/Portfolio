@@ -28,7 +28,7 @@ Each project folder includes:
 - **Documentation** – Summary and explanation of the project  
 
 📌 Currently, the `Projects/` folder contains three projects:  
-1. **Hierarchical Network Design with Cisco vIOS**  
+1. **Hierarchical Network Design with Cisco vIOS and Fortinet Next-Gen Firewall**  
 2. **Enterprise Network Security (Cisco vIOS + AD + FreeRADIUS + Graylog)**  
 3. **IPsec Site-to-Site VPN Deployment with Fortinet**  
 

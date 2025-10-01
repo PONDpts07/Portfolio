@@ -5,16 +5,20 @@ focusing on enterprise network design, security, and VPN deployment.
 
 ---
 
-### 🔹 Project 01 – Hierarchical Network Design with Cisco vIOS
+### 🔹 Project 01 – Hierarchical Network Design with Cisco vIOS and Fortinet Next-Gen Firewall
 **Lab Environment:** Proxmox VE + EVE-NG  
 - Designed a **Hierarchical network architecture** (Core–Distribution–Access)  
-- Integrated Cisco L2/L3 switches  
+- Integrated Cisco L2/L3 switches  and Fortinet next-gen firewall
 - Configured:
+  - **Firewall Policys** for network security by fortinets
+  - **Redundant links** for high Availability links
   - **OSPF** dynamic routing & default static route  
   - **VLANs** for segmentation  
   - **VRRP** for high availability  
   - **RSTP with Root Guard** for loop prevention  
-  - **DHCP Spoofing protection** and **DHCP Relay**  
+  - **Root Bridge**
+  - **spanning-tree guard root** and **spanning-tree portfast, spanning-tree bpduguard enable, port-security**
+  - **DHCP servers** on distribution switchs
 
 ---
 
