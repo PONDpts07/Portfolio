@@ -35,5 +35,5 @@ Each project folder includes:
 ---
 
 ## ✨ Notes
-- Large backup files (e.g., Proxmox `.vma.zst`) are stored externally (e.g., Google Drive) with download links provided.  
+<!-- - Large backup files (e.g., Proxmox `.vma.zst`) are stored externally (e.g., Google Drive) with download links provided.   -->
 - This repository is intended as a **portfolio showcase** for my skills and hands-on networking experience.  
