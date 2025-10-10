@@ -16,21 +16,21 @@ include certifications from:
 
 ### 🔹 `Projects/`
 Contains my **Network engineering lab projects** built using **Proxmox VE** and **EVE-NG**.  
-These projects cover **Network design, Device configuration, Security, and VPN Deployments** using vendors such as Cisco, Active Directory Freeradius and Graylog.
+These projects cover **Network design, Device configuration, Security, and VPN Deployments** using vendors such as Cisco, Active Directory Freeradius and rsyslog.
 
 Each project folder includes:
 - **Network Diagrams** – High-level design and topology overview  
 - **Lab Topology Screenshots** – From EVE-NG and Proxmox environments  
-- **Configuration Files** – Key device configurations (Cisco, Linux services, etc.)  
-- **Screenshots & Logs** – Evidence of functionality (VPN tunnels, routing tables, authentication logs, Graylog logs, ping/traceroute, etc.)  
+- **Configuration Files** – Key device configurations (Cisco, Fortinet , Linux services, etc.)  
+- **Screenshots & Logs** – Evidence of functionality (VPN tunnels, routing tables,ping/traceroute, etc.)  
 - **Test Results** – Test case documentation with outcomes  
 - **Backups** – VM and device configuration backups for recovery  
 - **Documentation** – Summary and explanation of the project  
 
 📌 Currently, the `Projects/` folder contains three projects:  
 1. **Hierarchical Network Design with Cisco vIOS and Fortinet Next-Gen Firewall**  
-2. **Enterprise Network Security (Cisco vIOS + AD + FreeRADIUS + Graylog)**  
-3. **IPsec Site-to-Site VPN Deployment with Fortinet**  
+<!-- 2. **Centralized Network Authentication and Logging using FreeRADIUS, MariaDB, and Rsyslog**   -->
+2. **IPsec Site-to-Site VPN Deployment with Fortinet**  
 
 ---
 

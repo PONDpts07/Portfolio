@@ -20,18 +20,16 @@ focusing on enterprise network design, security, and VPN deployment.
   - **spanning-tree guard root** and **spanning-tree portfast, spanning-tree bpduguard enable, port-security**
   - **DHCP servers** on distribution switchs
 
----
+<!-- ---
 
-### 🔹 Project 02 – Enterprise Network Security (Cisco vIOS + AD + FreeRADIUS + Graylog)
+### 🔹 Project 02 – Centralized Network Authentication and Logging using FreeRADIUS, MariaDB, and Rsyslog
 **Lab Environment:** Proxmox VE + EVE-NG  
-- Integrated **CISCO vIOS**, **Microsoft Active Directory**, **FreeRADIUS** and **Graylog**
-- Configured **LDAP + RADIUS authentication** for secure network access  
-- Deployed centralized **AAA framework with 802.1X authentication**  
-- Integrated **Graylog** for centralized logging, monitoring, and analysis  
+- Implemented 802.1X network authentication using FreeRADIUS integrated with MariaDB for centralized user credential storage.
+- Configured Rsyslog to collect authentication and accounting logs from FreeRADIUS, Cisco Switch, and Fortinet Firewall. -->
 
 ---
 
-### 🔹 Project 03 – IPsec Site-to-Site VPN Deployment with Fortinet
+### 🔹 Project 02 – IPsec Site-to-Site VPN Deployment with Fortinet
 **Lab Environment:** Proxmox VE + EVE-NG  
 - Designed a **secure VPN topology** connecting **Branch ↔ HQ between Data Center**  
 - Configured **Fortinet** for IPsec Site-to-Site VPN tunnels  

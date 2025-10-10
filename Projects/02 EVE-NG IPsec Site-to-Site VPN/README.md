@@ -1,4 +1,4 @@
-# Project03 – IPsec  Site-to-Site VPN Deployment with Fortinet
+# Project02 – IPsec  Site-to-Site VPN Deployment with Fortinet
 
 This project stores a **Network VPN Project : IPsec  Site-to-Site VPN Deployment with Fortinet** built with **Proxmox + EVE-NG**.  
 It includes files for topology, backups , configuration, documentation

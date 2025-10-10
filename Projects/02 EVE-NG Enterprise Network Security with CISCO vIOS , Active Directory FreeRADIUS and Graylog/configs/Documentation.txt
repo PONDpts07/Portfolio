@@ -1,9 +1,0 @@
-เก็บไฟล์ Configuration ที่เรา Save/Export มาแบบ text
-
-Router/Switch → R1.cfg, SW1.cfg (show running-config copy มาวาง)
-
-Firewall → FW1.conf
-
-Server → syslog.conf, freeradius.conf ฯลฯ
-
-จุดประสงค์คือ ให้อ่านง่าย และใช้ Git diff ดูว่าแก้ config อะไรไปบ้าง
